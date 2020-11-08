@@ -1,19 +1,19 @@
 # Built application files
-*.apk
-*.aar
-*.ap_
-*.aab
+/first_apps/ios/*.apk
+/first_apps/ios/*.aar
+/first_apps/ios/*.ap_
+/first_apps/ios/*.aab
 
 # Files for the ART/Dalvik VM
-*.dex
+/first_apps/ios/*.dex
 
 # Java class files
-*.class
+/first_apps/ios/*.class
 
 # Generated files
-bin/
-gen/
-out/
+/first_apps/ios/bin/
+/first_apps/ios/gen/
+/first_apps/ios/out/
 #  Uncomment the following line in case you need and you don't have the release build type files in your app
 # release/
 
@@ -63,23 +63,57 @@ captures/
 # google-services.json
 
 # Freeline
-freeline.py
-freeline/
-freeline_project_description.json
+/first_apps/ios/freeline.py
+/first_apps/ios/freeline/
+/first_apps/ios/freeline_project_description.json
 
 # fastlane
-fastlane/report.xml
-fastlane/Preview.html
-fastlane/screenshots
-fastlane/test_output
-fastlane/readme.md
+/first_apps/ios/fastlane/report.xml
+/first_apps/ios/fastlane/Preview.html
+/first_apps/ios/fastlane/screenshots
+/first_apps/ios/fastlane/test_output
+/first_apps/ios/fastlane/readme.md
 
 # Version control
 vcs.xml
 
 # lint
-lint/intermediates/
-lint/generated/
-lint/outputs/
-lint/tmp/
+/first_apps/ios/lint/intermediates/
+/first_apps/ios/lint/generated/
+/first_apps/ios/lint/outputs/
+/first_apps/ios/lint/tmp/
 # lint/reports/
+
+
+/first_apps/ios/*.mode1v3
+/first_apps/ios/*.mode2v3
+/first_apps/ios/*.moved-aside
+/first_apps/ios/*.pbxuser
+/first_apps/ios/*.perspectivev3
+**/*sync/
+/first_apps/ios/.sconsign.dblite
+/first_apps/ios/.tags*
+**/.vagrant/
+**/DerivedData/
+/first_apps/ios/Icon?
+**/Pods/
+**/.symlinks/
+/first_apps/ios/profile
+/first_apps/ios/xcuserdata
+**/.generated/
+/first_apps/ios/Flutter/App.framework
+/first_apps/ios/Flutter/Flutter.framework
+/first_apps/ios/Flutter/Flutter.podspec
+/first_apps/ios/Flutter/Generated.xcconfig
+/first_apps/ios/Flutter/app.flx
+/first_apps/ios/Flutter/app.zip
+/first_apps/ios/Flutter/flutter_assets/
+/first_apps/ios/Flutter/flutter_export_environment.sh
+/first_apps/ios/ServiceDefinitions.json
+/first_apps/ios/Runner/GeneratedPluginRegistrant.*
+
+# Exceptions to above rules.
+!default.mode1v3
+!default.mode2v3
+!default.pbxuser
+!default.perspectivev3
